@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4  | Contact</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+</head>
+<body>
+ <!-- ++++++++ Start Navigation ++++++++ -->
+ <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Logo</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a  class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+ </nav>
+ <!-- ++++++++ End Navigation ++++++++ -->
+
+
+<!-- ++++++++ Start Container ++++++++ -->
+<div class="container">
+    <h1 class="mt-5 mb-3">Contact</h1>
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Contact</li>
+    </ol>
+    <div class="row">
+        <!-- Map Column -->
+        <div class="col-lg-8 mb-4">
+            <iframe width="100%" height="400px" src="https://www.google.com/maps/d/u/0/embed?mid=1-VlXsvMWMr8EotfMcIwYKt-1SrI" ></iframe>
+        </div>
+        <div class="col-lg=4 mb-4">
+            <h3>Contact Details</h3>
+            <p>
+                3481 Melrose Place
+                <br>Beverly Hills, CA 90210
+                <br>
+            </p>
+            <p>
+                <abbr title="Phone"> P </abbr>:(123) 456-7890
+            </p>
+            <p>
+                <abbr title="Email"> E </abbr>: <a href="mailto:xaldrienallanigue@gmail.com">xaldrienallanigue@gmail.com</a>
+            </p>
+            <p>
+                <abbr title="Hours"> H </abbr>: Monday - Saturday: 7:30 AM to 4:30 PM
+            </p>
+        </div>
+    </div>
+
+
+<!-- +++++++++ Start Contact Form ++++++++++++ -->
+<div class="row">
+    <div class="col-lg-8 mb-4">
+        <h3>Send us a message</h3>
+        <form name="setMessage" id="contactForm" novalidate>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Full Name:</label>
+                    <input type="text"  class="form-control" id="name" required data-validation-required-message="Please Enter Your Full Name">
+                    <p class="help-block"></p>
+                </div>
+            </div>
+
+
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Phone Number:</label>
+                    <input type="tel"  class="form-control" id="phone" required data-validation-required-message="Please Enter Your Phone Number">
+                    <p class="help-block"></p>
+                </div>
+            </div>
+
+
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Email Address:</label>
+                    <input type="email"  class="form-control" id="email" required data-validation-required-message="Please Enter Your Email Address">
+                    <p class="help-block"></p>
+                </div>
+            </div>
+
+
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>Message:</label>
+                    <textarea  class="form-control" id="message" cols="100" rows="10" required data-validation-required-message="Please Enter Your Message" 
+                    maxlength="999" style="resize: none;"></textarea>
+                </div>
+            </div>
+            <div id="success"></div>
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
+        </form>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<!-- +++++++++ End Contact Form ++++++++++++ -->
+</div>
+
+
+
+
+
+
+
+
+<!-- ++++++++ End Container ++++++++ -->
+
+
+<!-- Footer -->
+
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy Aldrien Allanigue 2023</p>
+    </div>
+</footer>
+
+<!-- End Footer -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
